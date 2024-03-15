@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #EBEBEB;
+    color: #666;
+  }
+  h1 {
+    color: #162DB0;
+  }
+  .container {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .plans {
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  
+  .plan {
+    flex: 1;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    text-align: center;
+    border: none;
+  }
+
+  .plan:hover{
+    background-color: #D8A900;
+  }
+  
+  .plan h2 {
+    color: #162DB0;
+  }
+
+  .plan--selected {
+    background-color: #D8A900;
+    color: white;
+  }
+  
+  .plan--selected h2 {
+    color: white;
+  }
+  
+.text {
+  display: flex;
+  justify-content: space-between;
+  color: #162DB0;
+}
+.text1 {
+  order: 1;
+  border-left: 2px solid #162DB0;
+  padding-left: 5px;
+  margin-left: 3px;
+
+}
+.text2 {
+  order: 2;
+  padding-right: 0;
+  border-left: 2px solid #162DB0;
+  padding-left: 5px;
+  margin-right: 107px;
+}
+
+.input {
+    margin: 8px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+.nazev::placeholder{
+  color: white; 
+}
+.nazev:hover {
+  background-color: #1a38e4;
+
+}
+
+.nazev {
+  margin-left: 18px;
+  padding: 0.5rem;
+  font-size: 20px;
+  width: 400px;
+  background-color: #162DB0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.pocet::placeholder{
+  color: white;
+}
+.pocet:hover {
+  background-color: #1a38e4;
+}
+
+.pocet {
+  margin: 0 21px;
+  padding: 0.5rem;
+  font-size: 20px;
+  width: 120px;
+  background-color: #162DB0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.button {
+  padding: 0.5rem;
+  font-size: 20px;
+  border: none;
+  background-color: #D8A900;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #aaa;
+}
+.button:hover {
+  background-color: #ffc800;
+}
+.odpoved {
+  text-align: center;
+  color: #D8A900;
+  margin-top: 30px;
+  padding: 5px;
+}
